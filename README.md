@@ -30,19 +30,9 @@ This process creates a closed-loop feedback system that automatically regulates 
 Constant Current (CC) Mode
 In Constant Current mode, the electronic load maintains a predefined current regardless of variations in input voltage, within its operating limits.
 
-The desired current is determined by the reference voltage and current-sensing resistance.
-\[
-I_L=\frac{V_{REF}}{R_S}
-\]
-
 This mode is useful for evaluating the current-delivering capability and voltage regulation of DC power supplies and batteries.
 Constant Resistance (CR) Mode
 In Constant Resistance mode, the electronic load behaves approximately like a programmable resistor.
-
-The load current varies proportionally with the input voltage while maintaining the selected equivalent resistance.
-\[
-I_L=\frac{V_{IN}}{R_{SET}}
-\]
 
 For example, when the selected resistance is 10 Ω, an input voltage of 5 V produces an ideal load current of 0.5 A.
 
