@@ -1,7 +1,7 @@
 # Analog Programmable Electronic Load
 Constant Current (CC) and Constant Resistance (CR) Modes
 
-About the Project
+## About the Project
 The Analog Programmable Electronic Load is designed to test and evaluate DC power sources such as batteries, DC power supplies, and DC-DC converters.
 
 Unlike conventional resistive loads, which provide a fixed resistance, an electronic load allows the user to electronically control the amount of current drawn from a power source.
@@ -10,7 +10,7 @@ This project implements two operating modes: Constant Current (CC) and Constant 
 
 The main objective is to develop a programmable and adjustable electronic load that provides flexible loading conditions for testing and characterizing DC power sources.
 
-Key Features
+## Key Features
 - Constant Current (CC) operating mode.
 - Constant Resistance (CR) operating mode.
 - Adjustable current and resistance settings.
@@ -20,6 +20,7 @@ Key Features
 - Manual selection between operating modes.
 - MATLAB Simulink-based modeling and simulation.
 - No microcontroller or digital programming required.
+  
 Design Specifications
 Parameter	Specification
 Input Voltage	0–12 V DC (design target)
